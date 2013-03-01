@@ -1,6 +1,7 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
+\usepackage{graphicx}
 \begin{document}
 \title{Título del artículo}
 \author{Nombre y apellido \\
@@ -20,6 +21,7 @@
 \end{abstract}
 
 \section{Primera sección}
+\includegraphics[width=0.5\textwidth]{imagen1.eps}
 
 
 Si simplemente se desae escribir un texto normal en LaTeX
